@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ef677412b909460290f51c6d8156bbdb" Name="Diagram1" ZoomLevel="25">
+        <AssociationConnector Association="lang2Model.FK_ClientService_Service" />
+        <AssociationConnector Association="lang2Model.FK_ClientService_Client" />
+        <EntityTypeShape EntityType="lang2Model.Admin" Width="1.5" PointX="5.75" PointY="4.75" />
+        <EntityTypeShape EntityType="lang2Model.Client" Width="1.5" PointX="3" PointY="1" />
+        <EntityTypeShape EntityType="lang2Model.ClientService" Width="1.5" PointX="5.25" PointY="1.375" />
+        <EntityTypeShape EntityType="lang2Model.Gender" Width="1.5" PointX="0.75" PointY="1.75" />
+        <EntityTypeShape EntityType="lang2Model.Service" Width="1.5" PointX="3" PointY="5.375" />
+        <EntityTypeShape EntityType="lang2Model.sysdiagrams" Width="1.5" PointX="7.75" PointY="0.75" />
+        <AssociationConnector Association="lang2Model.FK_Client_Gender" />
+        </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
